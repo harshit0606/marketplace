@@ -1,0 +1,74 @@
+.text_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:40px 150px;
+    padding:0 80px;
+    margin-bottom: 0px;
+}
+.text_div p{
+    flex:0.25;
+    margin-bottom: 0;
+    font-weight: 600;
+    color:#286181;
+    font-size: 18px;
+}
+.arrow_icon{
+    color:#286181;
+}
+.section-4-div{
+    padding: 24px;
+    background:linear-gradient(180deg, #E6F6FF 41.47%, rgba(255, 255, 255, 0) 100%);
+    padding-top: 60px;
+}
+.section-4-div h1{
+    font-weight: 700;
+    color:#286181;
+}
+.button_div{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.orange_button{
+    background-color: rgb(255, 42, 0);
+    border:none;
+    padding:10px 30px;
+    color:white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.steps_div{
+   width:80%;
+   margin-bottom: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.step_row{
+    display: flex;
+    width:70%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.step{
+    flex:0.7;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.step_icon{
+    flex:0.3;
+}
+.step_iconn{
+    font-size: 70px;
+    font-weight: 100;
+    color:rgb(57, 57, 57)
+}
+.check_icon{
+    font-size: 20px;
+}

@@ -1,0 +1,58 @@
+.carousel_main{
+    width:100%;
+}
+.carousel_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px 170px;
+    padding-bottom: 90px;
+}
+.carousel_left{
+    flex:0.5;
+    text-align: left;
+}
+.carousel_left h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.carousel_left h4{
+    color: #0DB3FB;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.carousel_left p{
+    margin-bottom: 10px;
+}
+.carousel_right{
+    flex:0.5;
+}
+.carousel_right img{
+    height: 450px;
+    
+}
+.explore_btn{
+    padding:8px 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: #3182CE;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#gradientt{
+	position: relative;
+	background: linear-gradient(90deg, #7fdfe0, #4080d3, #4080d3, #7fdfe0);
+	background-size: 400%;
+	transition: all 0.5s;
+	z-index: 1;
+	animation: glow 8s linear infinite;
+}
+@keyframes glow {
+	0% {
+		background-position: 0%;
+	}
+	100% {
+		background-position: 400%;
+	}
+}

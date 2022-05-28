@@ -1,0 +1,70 @@
+.section-b-parent {
+    padding: 24px;
+    background:linear-gradient(180deg, #E6F6FF 41.47%, rgba(255, 255, 255, 0) 100%);
+    padding-top: 60px;
+}
+
+.section-b-parent h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color:#286181;
+}
+.upperDiv{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding:50px 160px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgb(132, 132, 132);
+}
+.firstCircle{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+}
+.secondCircle{
+    height: 240px;
+    width:240px;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    margin-bottom: 20px;
+}
+.Arrows{
+    flex:0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.below{
+    transform: translateY(35px);
+}
+.Arrows img{
+    height: 80px;
+    width:80px;
+    margin-bottom: 20px;
+}
+.secondData{
+    width:240px;
+
+}
+.secondData p{
+    font-size: 14px;
+}
+.Arrows p{
+    font-size: 14px;
+}
+.arrow_icon{
+    font-size: 70px;
+    
+}
