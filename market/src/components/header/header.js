@@ -4,14 +4,19 @@ import {BsSearch} from "react-icons/bs"
 import {BsPersonCircle} from "react-icons/bs"
 import {BiMessageDetail} from "react-icons/bi"
 import {FaShoppingCart} from "react-icons/fa"
+import {Link} from "react-router-dom"
 
 import "./header.css";
 function Header() {
+    function handleNavigate(e){
+        e.preventDefault();
+        
+    }
   return (
     <div className='header'>  
     <div className='header_main'>
         <div className='header_logo'>
-            <h1>Crato</h1>
+            <Link to="/"><h1>Crato</h1></Link>
             <p>Zero Commission Marketplace</p>
         </div>
         <div className='header_search'>
@@ -26,7 +31,7 @@ function Header() {
             <BsSearch/>
         </div>
         <div className='header_icons'>
-            <div className='icon_div'>
+            <div onClick={handleNavigate} className='icon_div'>
                 <BsPersonCircle className='header_icon'/>
                 <p>My Crato</p>
             </div>

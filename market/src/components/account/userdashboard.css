@@ -1,0 +1,27 @@
+.userdashboard_main{
+    text-align: left;
+    padding:40px 40px;
+    
+}
+.userdashboard_main a{
+    text-decoration: none;
+    color:rgb(70, 70, 70);
+}
+.userdashboard_main h1{
+    font-size: 26px;
+}
+.dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.dashboard_side{
+    padding:10px 20px;
+    color:rgb(70, 70, 70);
+    width:250px;
+    border-right: 1px solid lightgray;
+}
+.dashboard_side h3{
+    font-size: 18px;
+    color:rgb(70, 70, 70);
+}

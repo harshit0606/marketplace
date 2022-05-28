@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import{FaFacebookSquare,FaTwitterSquare,FaInstagram,FaGooglePlusSquare} from "react-icons/fa";
+
 function footer() {
   return (
     <div className="footer_main">
@@ -11,7 +13,12 @@ function footer() {
           through its platform without charging any commission on transactions.
         </p>
 
-        <div className="footer_icons"></div>
+        <div className="footer_icons">
+        <FaFacebookSquare/>
+        <FaTwitterSquare/>
+        <FaInstagram/>
+        <FaGooglePlusSquare/>
+        </div>
       </div>
       <div className="footer2">
         <h2>Our Links</h2>
